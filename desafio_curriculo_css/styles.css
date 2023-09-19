@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(assets/back_ground_gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#titulo_principal {
+    text-align: center;
+    font-weight: 300;
+    color: #F8DE22;
+}
+
+#paragrafo_titulo {
+    text-align: center;
+    font-weight: 300;
+    color: #F8DE22;
+}
+
+
+
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: solid 5px #F8DE22;
+
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border: solid #F8DE22;
+
+}
+
+.left-section {
+    flex: 1;
+    background-image: url(assets/back_ground_gif.gif);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-section {
+    flex: 1;
+    background-color: white;
+    background-image: url(assets/back_ground_gif.gif);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.sub-section-content {
+
+    color: #7091F5;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 24px;
+    border-left: solid #F8DE22;
+}
+
+
+.titulo_apresentacao {
+    font-size: 50px;
+    color: #F8DE22;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.sub_titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: #FFFD8C;
+}
+
+.paragrafo_descricao {
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.list_shuffle {
+    padding-left: 20px;
+
+}
+
+.list_definicao_1 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+
+}
+
+.List_termo_1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.list_definition_1 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.list_ordenada {
+    padding-left: 20px;
+
+}
+
+.list_ordenada_item {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.list_contato {
+    padding-left: 20px;
+}
+
+.list_contato_item {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    list-style-type: square;
+}
+
+.definition_list_2 {
+    font-size: 24px;
+}
+
+.definition_term_02 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#footer {
+    background-image: url(assets/back_ground_gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#paragrafo_footer {
+    text-align: center;
+    color: #F8DE22;
+}
